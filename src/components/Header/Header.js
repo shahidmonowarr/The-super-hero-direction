@@ -10,8 +10,8 @@ const Header = () => {
     return (
 
         <div className="text-center bg-secondary py-3 mb-5 text-white">
-            <h2 className="fs-1 fw-bolder">FAVOURITE BOOKS WRITER</h2>
-            <h3 className="fs-2 fw-bold">Total Cards: {cards} </h3>
+            <h2 className="fs-1 fw-bolder">BD BESTSELLER BOOKS WRITER LIST</h2>
+            <h3 className="fs-2 fw-bold">Total Writers: {cards} </h3>
         </div>
     );
 };

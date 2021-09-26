@@ -18,6 +18,8 @@ const Main = () => {
     }
 
     useEffect(() => {
+
+        // fetching data from json file 
         fetch("/writers.JSON")
             .then((res) => res.json())
             .then((data) => setWriters(data));
@@ -36,9 +38,9 @@ const Main = () => {
                     </div>
                 </div>
 
-                {/* Cart component for calculation*/}
+                {/* Cart component for calculation */}
                 <div className="col-md-3 col-lg-3 col-sm-5">
-                    Cart calculation
+                    {/* Cart calculation */}
                     {
                         <Cart cart={cart}></Cart>}
                 </div>

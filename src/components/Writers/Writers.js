@@ -8,19 +8,19 @@ const Writers = (props) => {
     const { picture, name, title, age, gender, category, email, price } = props.writer;
 
     // Font awesome 
-    const element = <FontAwesomeIcon icon={faShoppingCart} />
+    const icon = <FontAwesomeIcon icon={faShoppingCart} />
     return (
 
         // cards 
         <div className="col-md-4">
             <div className="card mb-3">
                 <div className="row g-0">
-                    <div className="cards-item">
+                    <div className="cards-item rounded-3">
                         <div className="mt-3">
                             <img src={picture} className="img-fluid  rounded-circle" alt="..." />
                         </div>
                         <div className="card-body">
-                            <h3 className="card-title">{name}</h3>
+                            <h3 className="card-title fs-4 fw-bold">{name}</h3>
                             <p className="card-text">
                                 <small>Gender: {gender}</small>
                             </p>
@@ -40,8 +40,9 @@ const Writers = (props) => {
                             <button
                                 onClick={() => props.handleAddWriter(props.writer)}
                                 className="btn button">
-                                {element} Add To Cart
+                                {icon} Load To Cart
                             </button>
+                            {/* <h4>{faBook} </h4> */}
                         </div>
                     </div>
                 </div>

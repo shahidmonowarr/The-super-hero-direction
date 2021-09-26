@@ -38,7 +38,7 @@
     {
         "_id": "614f7aaf799b14a68e1426a6",
         "index": 3,
-        "name": "Rokhsana Akhter Rupee",
+        "name": "রোখসানা আখতার রুপি",
         "price": 40.15,
         "picture": "https://ds.rokomari.store/rokomari110/people/78d51b46c_81131.jpg",
         "title": "করপোরেট কমিউনিকেশন",
@@ -118,5 +118,41 @@
         "age": 43,
         "gender": "Male",
         "email": "ahmadullah@sensate.com"
+    },
+    {
+        "_id": "tttf7aafa0dec937b6d44eaf",
+        "index": 10,
+        "name": " চমক হাসান",
+        "price": 48.05,
+        "picture": "https://ds.rokomari.store/rokomari110/people/db5c4d8f1_6019.jpg",
+        "title": "গণিতের রঙ্গে হাসিখুশি গণিত",
+        "category": "গণিত",
+        "age": 33,
+        "gender": "Male",
+        "email": "chomok@hasan.com"
+    },
+    {
+        "_id": "pppf7aafa0dec937b6d44eaf",
+        "index": 11,
+        "name": " রাগিব হাসান",
+        "price": 48.05,
+        "picture": "https://ds.rokomari.store/rokomari110/people/500563453fb4_31918.jpg",
+        "title": "বিজ্ঞানীদের কাণ্ডকারখানা",
+        "category": "বিজ্ঞানী",
+        "age": 43,
+        "gender": "Male",
+        "email": "ragib@hasan.com"
+    },
+    {
+        "_id": "nnnf7aafa0dec937b6d44eaf",
+        "index": 12,
+        "name": "জুনায়েদ ইভান",
+        "price": 48.05,
+        "picture": "https://ds.rokomari.store/rokomari110/people/707117900_79296.jpg",
+        "title": "শেষ ",
+        "category": "উপন্যাস",
+        "age": 33,
+        "gender": "Male",
+        "email": "junaed@ivan.com"
     }
 ]
