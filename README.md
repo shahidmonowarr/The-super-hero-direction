@@ -1,6 +1,6 @@
 # Bestseller Books Writer BD
 
-This project was deployed with [Bestseller Books Writer BD](https://bestseller-books-writer-bd.netlify.app/).
+This project was deployed with netlify. This is the live site link [Bestseller Books Writer BD](https://bestseller-books-writer-bd.netlify.app/).
 
 ## Website Outcome:
 1. In this project I've used very famous javascript library which is react.
